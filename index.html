@@ -1,0 +1,1290 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>VGIPL</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<!-- html code start form hear -->
+
+<body>
+<header>
+  <div class="logo">Virtual Galaxy</div>
+    <nav>
+        <a onclick="showPage('home')">Home</a>
+        <a onclick="showPage('WE')">We</a>
+        <a onclick="showPage('explore')">Explore</a>
+        <a onclick="showPage('ipo')">IPO</a>
+        <a onclick="showPage('investor')">Investor</a>
+        <a onclick="showPage('contact')">Contact</a>
+    </nav>
+</div>
+</nav>
+<link rel="stylesheet" href="style.css">
+</header>
+
+
+<!-- back btn -->
+ <div class="back-btn" onclick="goBack()"> ← </div>
+<!-- end of back btn -->
+
+<!-- we page  -->
+<div id="WE" class="page" style="display:none; text-align:center; padding:20px;">
+    <h1>Our Team</h1>
+
+<!-- Leadership -->
+<!-- <h2>MD</h2> -->
+<div class="top-team">
+
+<div class="team-member reveal active"
+data-img="md.avif"
+data-name="Mr. Avinash Shende"
+data-role="Chairman & CFO"
+data-exp="Since 2010"
+data-desc="Mr. Avinash Shende is a visionary leader with extensive experience in financial management, corporate strategy, and business growth. He has played a key role in strengthening the company’s financial structure and guiding long-term expansion with strong governance practices."
+onclick="openProfileFromCard(this)">
+<img src="md.avif">
+<h3>Mr. Avinash Shende</h3>
+<p>Promoter, Chairman, Executive Director & CFO</p>
+</div>
+
+<div class="team-member reveal active"
+data-img="cofounder.jfif"
+data-name="Mr. Sachin Pande"
+data-role="Managing Director & CTO"
+data-exp="Since 2012"
+data-desc="Mr. Sachin Pande is a technology-focused leader with expertise in fintech systems, software development, and innovation. He leads the company’s technical vision and ensures cutting-edge digital solutions are delivered efficiently."
+onclick="openProfileFromCard(this)">
+<img src="cofounder.jfif">
+<h3>Mr. Sachin Pande</h3>
+<p>Promoter, Managing Director & CTO</p>
+</div>
+
+</div>
+
+
+<h2>Directors</h2>
+<div class="top-team">
+
+<div class="team-member reveal active"
+data-img="zade.jpg"
+data-name="Mr. Bharat Zade"
+data-role="Director - Operations"
+data-exp="Since 2015"
+data-desc="Mr. Bharat Zade manages operations and digital transformation initiatives, ensuring efficiency and smooth execution across departments with a focus on innovation and growth."
+onclick="openProfileFromCard(this)">
+<img src="zade.jpg">
+<h3>Mr. Bharat Zade</h3>
+<p>Director - Operations</p>
+</div>
+
+<div class="team-member reveal active"
+data-img="Mr.Harshjit Deshmukh.jpg"
+data-name="Mr. Harshjit Deshmukh"
+data-role="Director - Business Development"
+data-exp="Since 2016"
+data-desc="Mr. Harshjit Deshmukh specializes in domestic business growth, partnerships, and strategic expansion. He plays a key role in driving revenue and market presence."
+onclick="openProfileFromCard(this)">
+<img src="Mr.Harshjit Deshmukh.jpg">
+<h3>Mr. Harshjit Deshmukh</h3>
+<p>Director - Domestic Business Development</p>
+</div>
+
+<div class="team-member reveal active"
+data-img="Alhad Hardas.jpg"
+data-name="Mr. Alhad Hardas"
+data-role="Director - Banking Services"
+data-exp="Since 2017"
+data-desc="Mr. Alhad Hardas brings deep expertise in banking domain services, helping the company deliver strong fintech and banking solutions aligned with industry needs."
+onclick="openProfileFromCard(this)">
+<img src="Alhad Hardas.jpg">
+<h3>Mr. Alhad Hardas</h3>
+<p>Director - Banking Domain Services</p>
+</div>
+
+<div class="team-member reveal active"
+data-img="Satish Kukde.jpg"
+data-name="Mr. Satish Kukde"
+data-role="Principal Database Architect"
+data-exp="Since 2014"
+data-desc="Mr. Satish Kukde is an expert in database architecture and system optimization. He ensures high performance, scalability, and reliability of enterprise systems."
+onclick="openProfileFromCard(this)">
+<img src="Satish Kukde.jpg">
+<h3>Mr. Satish Kukde</h3>
+<p>Principal Database Architect</p>
+</div>
+
+</div>
+
+
+<h2>Development Team</h2>
+<div class="team-container">
+
+<div class="team-member reveal"
+data-img="dev1.jpg"
+data-name="Prakash Wankede"
+data-role="Frontend Developer"
+data-exp="Since 2020"
+data-desc="Prakash Wankede specializes in UI/UX and frontend technologies, creating responsive and visually appealing interfaces for modern web applications."
+onclick="openProfileFromCard(this)">
+<img src="dev1.jpg">
+<p>Prakash Wankede - Frontend Developer</p>
+</div>
+
+<div class="team-member reveal"
+data-img="vijay.jpg"
+data-name="Vijay Nimje"
+data-role="Backend Developer"
+data-exp="Since 2019"
+data-desc="Vijay Nimje focuses on backend systems, APIs, and server-side logic, ensuring robust performance and seamless integration across platforms."
+onclick="openProfileFromCard(this)">
+<img src="vijay.jpg">
+<p>Vijay Nimje - Backend Developer</p>
+</div>
+
+</div>
+
+
+<h2>Marketing Team</h2>
+<div class="team-container">
+
+<div class="team-member reveal"
+data-img="m1.jpg"
+data-name="Rohit"
+data-role="Marketing Manager"
+data-exp="Since 2018"
+data-desc="Rohit leads marketing strategies, campaigns, and branding initiatives to increase visibility and customer engagement across digital platforms."
+onclick="openProfileFromCard(this)">
+<img src="m1.jpg">
+<p>Rohit - Marketing Manager</p>
+</div>
+
+<div class="team-member reveal"
+data-img="kmal.jpg"
+data-name="Kamal"
+data-role="SEO Specialist"
+data-exp="Since 2021"
+data-desc="Kamal is an SEO expert who improves website ranking, traffic, and search engine visibility through advanced optimization techniques."
+onclick="openProfileFromCard(this)">
+<img src="kmal.jpg">
+<p>Kamal - SEO Specialist</p>
+</div>
+
+</div>
+
+
+<h2>HR Department</h2>
+<div class="team-container">
+
+<div class="team-member reveal"
+data-img="hr1.jpg"
+data-name="Priyanka Baidhya"
+data-role="HR Manager"
+data-exp="Since 2017"
+data-desc="Priyanka Baidhya handles recruitment, employee engagement, and HR policies, ensuring a positive and productive work environment."
+onclick="openProfileFromCard(this)">
+<img src="hr1.jpg">
+<p>Priyanka Baidhya - HR Manager</p>
+</div>
+
+<div class="team-member reveal"
+data-img="vikas.jpg"
+data-name="Vikas"
+data-role="SEO Specialist"
+data-exp="Since 2022"
+data-desc="Vikas works on SEO strategies, keyword optimization, and analytics to enhance online reach and performance."
+onclick="openProfileFromCard(this)">
+<img src="vikas.jpg">
+<p>Vikas - SEO Specialist</p>
+</div>
+
+</div>
+</div>
+
+
+<!-- POPUP MODAL -->
+<div id="profileModal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn" onclick="closeModal()">&times;</span>
+        
+        <img id="modalImg" src="">
+        <h2 id="modalName"></h2>
+        <p id="modalRole"></p>
+        <p id="modalExp"></p>
+    </div>
+</div>
+
+<!-- PROFILE PAGE (HIDDEN) -->
+<div id="profilePage" class="page" style="display:none;">
+
+    <div class="profile-container">
+
+        <div class="left">
+            <img id="pImg">
+        </div>
+
+        <div class="right">
+            <h1 id="pName"></h1>
+            <p id="pRole"></p>
+            <p id="pExp"></p>
+            
+
+            <button onclick="goBack()">⬅ Back</button>
+
+            <p id="pDesc"></p>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- end of we  -->
+
+
+
+<!-- HOME PAGE -->
+<div id="home" class="page" style="display:block;">
+
+    <!-- Main content -->
+    <div class="container">
+
+        <p class="subtitle">Next Generation Core Banking Platform</p>
+
+        <h1>YOU TRUST BANK AND BANK TRUST US</h1>
+
+        <p class="description">
+            Powering modern banks with secure digital banking and real-time financial systems.
+        </p>
+
+        <!-- Stats -->
+        <div class="stats"> 
+            <div class="stat">
+                <h3>180%</h3>
+                <p>Happy Clients</p>
+            </div>
+            <div class="stat">
+                <h3>28K+</h3>
+                <p>Experience</p>
+            </div>
+            <div class="stat">
+                <h3>450+</h3>
+                <p>Employees</p>
+            </div>
+        </div>
+
+        <!-- Explore Button -->
+        <div class="btn">
+            <button onclick="showPage('explore')">Open Explore</button>
+        </div>
+
+        <!-- Hero Section -->
+        <div class="hero">
+
+            <!-- Floating Cards -->
+            <div class="floating left1">
+                Currency Exchange<br><b>$50 → $66</b>
+            </div>
+
+            <div class="floating left2">
+                Total Income<br><b>$45,000</b>
+            </div>
+
+            <div class="floating right1">
+                Total Expense<br><b>$25,000</b>
+            </div>
+
+            <div class="floating right2">
+                Monthly Limit<br><b>$10,000</b>
+            </div>
+
+            <!-- Center ATM Card -->
+            <div class="atm-card" onclick="showPage('atm-info-page')">
+                <div class="chip"></div>
+                <div class="bank-name">VG CARD</div>
+                <div class="card-number">**** **** **** 4598</div>
+                <div class="card-bottom">
+                    <span>Bhupesh</span>
+                    <span>12/28</span>
+                </div>
+            </div>
+
+        </div> <!-- hero ends -->
+
+    </div> <!-- container ends -->
+
+
+<!-- ABOUT VIRTUAL GALAXY -->
+<section class="about">
+<h2>About Virtual Galaxy</h2>
+<p>
+Virtual Galaxy Infotech is a technology company providing 
+core banking solutions, fintech software and digital banking 
+platforms for cooperative banks and financial institutions.
+What makes VGIL a leading IT solutions provider
+with 28 years of robust experience
+Our journey began in 1997, with a steadfast commitment to client satisfaction and exceptional service standards. 
+From the outset, we've been dedicated to innovation and continuous improvement, driving our growth. We're not sprint racers; we're marathon runners, enduring and thriving for the long haul.
+</p>
+<p>
+The company delivers secure banking infrastructure,
+digital payment systems, MIS reporting and AI-driven
+financial analytics.
+</p>
+</section>
+
+
+<!-- IMPACT SECTION -->
+ <section class="impact-section reveal">
+  <h2>Our Impact</h2>
+  <div class="impact-cards">
+    <div class="impact-card" onclick="openLink('https://stbank.co.in/')">
+       <h3>State Transport Bank, Mumbai</h3>
+      <p>Bank details you have passed</p>
+    </div>
+    <div class="impact-card" onclick="openLink('https://www.bucbl.com/')">
+      <h3>Bhandara Urban Bank</h3>
+      <p>Bank details you have passed</p>
+    </div>
+    <div class="impact-card" onclick="openLink('https://www.kulswami.com/')">
+      <h3>Goa DCC Bank</h3>
+      <p>Bank details you have passed</p>
+    </div>
+    <div class="impact-card" onclick="openLink('https://jdcc.bank.in/en/')">
+      <h3>Jalna DCC Bank</h3>
+      <p>Bank details you have passed</p>
+    </div>
+    <div class="impact-card" onclick="openLink('https://www.kulswami.com/')">
+      <h3>kulswami co op credit society</h3>
+      <p>Bank details you have passed</p>
+    </div>
+    <div class="impact-card" onclick="openLink('http://www.shivkrupapatpedhi.com/')">
+      <h3>dnyandeep co op credit society</h3>
+      <p>Bank details you have passed</p>
+    </div>
+    <div class="impact-card" onclick="openLink('http://www.shivkrupapatpedhi.com/')">
+      <h3>shivkrupa bank</h3>
+      <p>Bank details you have passed</p>
+    </div>
+    <div class="impact-card" onclick="openLink('https://bhandaradccb.com/')">
+      <h3>bhandara dcc bank</h3>
+      <p>Bank details you have passed</p>
+    </div>
+    <div class="impact-card" onclick="openLink('https://sangliurban.bank.in/')">
+      <h3>sangli urban bank</h3>
+      <p>Bank details you have passed</p>
+    </div>
+  </div>
+</section>
+
+<!-- smat banking -->
+<section class="smart-banking">
+    <h2 class="fade-in">Built for Smarter Banking</h2>
+    <div class="smart-cards">
+        <div class="smart-card fade-in">
+            <img src="icon1.png" alt="">
+            <h3>Fast Transactions</h3>
+            <p>Instant payments and transfers without delays.</p>
+        </div>
+        <div class="smart-card fade-in">
+            <img src="icon2.png" alt="">
+            <h3>Secure Banking</h3>
+            <p>Advanced security for your peace of mind.</p>
+        </div>
+        <div class="smart-card fade-in">
+            <img src="icon3.png" alt="">
+            <h3>24/7 Support</h3>
+            <p>Always available to assist you anytime.</p>
+        </div>
+    </div>
+</section>
+
+
+<!-- simple finaces -->
+<section class="control-finances">
+    <div class="section-header">
+        <h1>few simple steps, you'll have full control over your finances.</h1>
+    </div>
+
+    <div class="finance-grid">
+        <div class="finance-card">
+            <div class="card-content">
+                <div class="mockup-ui signup-ui">
+                    <div class="ui-header">New Account</div>
+                    <div class="ui-input"><span>+1 23 795 388 297</span></div>
+                    <div class="ui-input"><span>designer@thesmallsquare.com</span></div>
+                </div>
+            </div>
+            <h3>Sign Up</h3>
+            <p>Create your account with just your email and phone number.</p>
+        </div>
+
+        <div class="finance-card">
+            <div class="card-content">
+                <div class="mockup-ui connect-ui">
+                    <div class="bank-circle">
+                        <div class="logo-inner">VG</div>
+                    </div>
+                </div>
+            </div>
+            <h3>Connect Your Bank</h3>
+            <p>Securely link your existing bank accounts and cards using encrypted connections.</p>
+        </div>
+
+        <div class="finance-card">
+            <div class="card-content">
+                <div class="mockup-ui list-ui">
+                    <div class="list-item"><span>Reddit</span> <b>-$12.00</b></div>
+                    <div class="list-item"><span>Apple Inc.</span> <b>-$40.00</b></div>
+                </div>
+            </div>
+            <h3>Track, Spend, And Save</h3>
+            <p>Track spending, set savings goals, and make instant transfers.</p>
+        </div>
+
+        <div class="finance-card">
+            <div class="card-content">
+                <div class="mockup-ui pay-ui">
+                    <div class="user-avatar"></div>
+                    <div class="pay-amount">$2,400.00</div>
+                    <div class="pay-btn">Send now</div>
+                </div>
+            </div>
+            <h3>Quick Payment To Anyone</h3>
+            <p>Transfer funds in seconds anytime, anywhere, with complete peace of mind.</p>
+        </div>
+
+        <div class="finance-card">
+            <div class="card-content">
+                <div class="mockup-ui graph-ui">
+                    <div class="saved-label">You Saved</div>
+                    <div class="saved-amount">$5,200.00</div>
+                    <div class="graph-line"></div>
+                </div>
+            </div>
+            <h3>Your Money, Your Insights</h3>
+            <p>See where your money goes, save more with goals, and stay one step ahead.</p>
+        </div>
+
+        <div class="finance-card">
+            <div class="card-content">
+                <div class="mockup-ui methods-ui">
+                    <div class="method-icons">
+                        <span class="m-icon">VISA</span>
+                        <span class="m-icon">Stripe</span>
+                        <span class="m-icon">Paypal</span>
+                    </div>
+                </div>
+            </div>
+            <h3>Support All Popular Payment Methods</h3>
+            <p>From credit cards to digital wallets, we support all major payment methods.</p>
+        </div>
+    </div>
+</section>
+
+<div class="rbi-box" onclick="openRBI()">
+    <h3>About RBI</h3>
+    <p>
+        The Reserve Bank of India (RBI) is the central banking institution of India, 
+        responsible for regulating the country's financial system and ensuring monetary stability.
+    </p>
+
+    <ul>
+        <li>✔ Controls inflation and money supply</li>
+        <li>✔ Supervises banks and financial institutions</li>
+        <li>✔ Issues currency notes</li>
+        <li>✔ Maintains financial stability</li>
+    </ul>
+</div>
+
+</div>
+</div>
+
+
+
+<!-- ATM INFO PAGE -->
+<div id="atm-info-page" class="page" style="display:none;">
+
+    <div class="atm-details-container">
+
+        <div class="back-nav" onclick="showPage('home')">← Back to Overview</div>
+        
+        <header class="atm-header">
+            <h1>VG Smart ATM Solutions</h1>
+            <p class="tagline">Empowering Cooperative Banks since 2015</p>
+        </header>
+
+                <section class="atm-grid">
+
+           <div class="info-card">
+    <h3>Our Identity</h3>
+    <p>Virtual Galaxy launched its first independent ATM switch and card management system in <b>January 2015</b>. Today, our cards are a symbol of trust in hundreds of cooperative banks across the country.</p>
+    <div class="highlight-box">
+        <strong>Universal Acceptance:</strong> Our ATM cards work smoothly across <b>all partner banks</b> connected to our system.
+    </div>
+</div>
+
+
+<div class="features-card">
+    <h3>ATM Card Uses</h3>
+    <ul class="feature-list">
+        <li><span>✔</span> <b>Anytime Cash:</b> Withdraw cash 24/7 with ease.</li>
+        <li><span>✔</span> <b>POS & E-commerce:</b> Safe for shopping and online payments.</li>
+        <li><span>✔</span> <b>Green PIN:</b> Paperless PIN generation feature.</li>
+        <li><span>✔</span> <b>Secure Chip:</b> Latest EMV technology to prevent fraud.</li>
+    </ul>
+</div>
+
+        </section>
+</div> <!-- atm-details-container ends -->
+
+
+<!-- Circle Chart -->
+<div class="atm-chart-row">
+    <!-- Left: Circle Chart -->
+    <div class="atm-circle-chart">
+        <svg viewBox="0 0 36 36" class="circular-chart">
+            <!-- Background Circle -->
+            <path class="circle-bg"
+                d="M18 2.0845
+                   a 15.9155 15.9155 0 0 1 0 31.831
+                   a 15.9155 15.9155 0 0 1 0 -31.831"/>
+            
+            <!-- 80% Full usage -->
+            <path class="circle full-usage"
+                stroke-dasharray="80,100"
+                d="M18 2.0845
+                   a 15.9155 15.9155 0 0 1 0 31.831
+                   a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                   
+            <!-- 10% Partial usage -->
+            <path class="circle partial-usage"
+                stroke-dasharray="10,100"
+                stroke-dashoffset="-80"
+                d="M18 2.0845
+                   a 15.9155 15.9155 0 0 1 0 31.831
+                   a 15.9155 15.9155 0 0 1 0 -31.831"/>
+            
+            <!-- 10% Not using -->
+            <path class="circle not-using"
+                stroke-dasharray="10,100"
+                stroke-dashoffset="-90"
+                d="M18 2.0845
+                   a 15.9155 15.9155 0 0 1 0 31.831
+                   a 15.9155 15.9155 0 0 1 0 -31.831"/>
+            
+            <text x="18" y="20.35" class="percentage">90%</text>
+        </svg>
+        
+        <p>ATMs in our partner banks</p>
+    </div>
+
+    <!-- Right: Glass Legend -->
+    <div class="glass-legend">
+        <div><span class="legend-color full-usage"></span> 80% banks fully using our ATMs</div>
+        <div><span class="legend-color partial-usage"></span> 10% banks partially using</div>
+        <div><span class="legend-color not-using"></span> 10% banks not using</div>
+    </div>
+</div>
+</div> <!-- atm-info-page ends -->
+</div> <!-- home page ends -->
+<!-- home end -->
+
+
+<!-- EXPLORE PAGE -->
+ <div id="explore" class="page explore-page">
+            <h2 class="explore-title">Explore Our Solutions</h2>
+        <p class="explore-sub">Powerful fintech products and enterprise services designed for modern banking.</p>
+    <div class="explore-wrapper">
+        <div class="explore-card product-card" onclick="showPage('products')">
+           <div class="card-glow"></div>
+    <div class="card-content">
+    <h3>Products</h3>
+        <p>Advanced core banking software, digital payment systems and enterprise fintech platforms.</p>
+    <span class="explore-btn">View Products →</span>
+</div>
+</div>
+
+<div class="explore-card service-card" onclick="showPage('services')">
+    <div class="card-glow"></div>
+    <div class="card-content">
+    <h3>Services</h3><p>Enterprise IT services, AI solutions and digital transformation support.</p>
+        <span class="explore-btn">View Services →</span>
+    </div>      
+    </div>
+    </div>
+</div>
+
+
+
+<!-- PRODUCTS -->
+<div id="products" class="page explore-page">
+
+    <h2 class="explore-title">Our Products</h2>
+    <p class="explore-sub">Innovative banking and fintech software solutions.</p>
+<div class="explore-wrapper">
+
+<div class="explore-card" onclick="showPage('corebanking-detail')">
+    <h3>Core Banking</h3>
+    <p>Modern digital banking platform.</p>
+</div>
+
+
+<div class="explore-card" onclick="showPage('mis-detail')">
+    <h3>MIS Solution</h3> <p>Advanced reporting system.</p>
+</div>
+
+
+<div class="explore-card" onclick="showPage('post-mortem-mgmt')">
+    <h3>Post Mortem MGMT</h3> <p>Incident investigation system.</p>
+</div>
+
+<div class="explore-card" onclick="showPage('finflow-detail')">
+    <h3>Fin Flow</h3> <p>Financial workflow automation.</p>
+</div>
+
+<div class="explore-card" onclick="showPage('cyber-detail')">
+    <h3>Cyber Security</h3> <p>Enterprise security architecture.</p>
+</div>
+
+<div class="explore-card" onclick="showPage('erp-detail')"> 
+    <h3>ERP Solution</h3> <p>Enterprise resource planning system.</p>
+</div>
+
+<div class="explore-card" onclick="showPage('digital-detail')">  
+    <h3>Digital Payment</h3> <p>Secure online payment platform.</p>
+</div>
+
+</div>
+</div>
+</div>
+
+<!-- SERVICES -->
+<div id="services" class="page explore-page">
+    
+    <h2>Our Services</h2>
+<div class="grid">
+
+<div class="card" onclick="showPage('appdev')">
+    <h3>Application Development</h3> <p>Modern digital banking platform.</p>
+</div>
+
+<div class="card" onclick="showPage('ai')">
+    <h3>AL & ML </h3> <p>Advanced reporting system.</p>
+</div>
+
+<div class="card" onclick="showPage('digitals')">
+    <h3>Digital Solution</h3> <p>Incident investigation system.</p>
+</div>
+
+<div class="card" onclick="showPage('infra')">
+    <h3>It Infrastructure Development</h3> <p>Financial workflow automation.</p>
+</div>
+
+<div class="card" onclick="showPage('vgst')">
+    <h3>Vgst</h3> <p>Enterprise security architecture.</p>
+</div>
+
+<div class="card" onclick="showPage('frdc')">
+    <h3>Dr & Cr</h3> <p>Enterprise resource planning system.</p>
+</div>
+
+<div class="card" onclick="showPage('Mobile')">
+    <h3>Mobile Computing</h3> <p>Secure online payment platform.</p>
+</div>
+</div>
+</div>
+
+
+<!-- SERVICE DETAIL PAGES -->
+<!-- Services page in detial -->
+ 
+     <!-- Application Development -->
+      <div id="services-list" class="page">
+    <h1>Our Services</h1>
+    <div onclick="showPage('appdev')">Application Development</div>
+</div>
+    <div id="appdev" class="page detail-page">
+        
+    <section class="detail-hero">
+        <h1>Application Development</h1>
+        <p>Custom enterprise-grade software solutions.</p>
+    </section>
+
+    <section class="detail-content">
+        <h2>What is Application Development?</h2>
+        <p>
+            Application development involves designing and building software
+            solutions tailored to business needs, ensuring scalability and performance.
+        </p>
+
+        <h2>Key Features</h2>
+        <ul>
+            <li>✔ Custom Software Development</li>
+            <li>✔ Web & Mobile Applications</li>
+            <li>✔ Scalable Architecture</li>
+            <li>✔ API Integration</li>
+            <li>✔ Cloud Deployment</li>
+        </ul>
+
+        <h2>Benefits</h2>
+        <p>
+            Improves business efficiency, enhances user experience and supports digital transformation.
+        </p>
+    </section>
+
+    </div>
+
+
+    <!-- AI & ML Solutions -->
+    <div id="ai" class="page detail-page">
+  
+    <section class="detail-hero">
+        <h1>AI & ML Solutions</h1>
+        <p>Smart automation using Artificial Intelligence.</p>
+    </section>
+
+    <section class="detail-content">
+        <h2>What is AI & ML?</h2>
+        <p>
+            AI & ML technologies enable systems to learn from data,
+            automate processes and provide predictive insights.
+        </p>
+
+        <h2>Key Features</h2>
+        <ul>
+            <li>✔ Predictive Analytics</li>
+            <li>✔ Data Modeling</li>
+            <li>✔ Automation Systems</li>
+            <li>✔ Chatbots & AI Assistants</li>
+            <li>✔ Fraud Detection</li>
+        </ul>
+
+        <h2>Benefits</h2>
+        <p>
+            Enhances decision-making, reduces manual work and improves accuracy.
+        </p>
+    </section>
+
+</div>
+
+
+<!-- Digital Solutions -->
+<div id="digitals" class="page detail-page">
+
+
+    <section class="detail-hero">
+        <h1>Digital Solutions</h1>
+        <p>Transforming businesses through digital innovation.</p>
+    </section>
+
+    <section class="detail-content">
+        <h2>What is Digital Solution?</h2>
+        <p>
+            Digital solutions help organizations adopt modern technologies
+            to streamline operations and improve customer experience.
+        </p>
+
+        <h2>Key Features</h2>
+        <ul>
+            <li>✔ Digital Transformation</li>
+            <li>✔ Automation Tools</li>
+            <li>✔ Cloud Integration</li>
+            <li>✔ UI/UX Optimization</li>
+            <li>✔ Data Analytics</li>
+        </ul>
+
+        <h2>Benefits</h2>
+        <p>
+            Improves efficiency, boosts growth and enhances digital presence.
+        </p>
+    </section>
+
+</div>
+
+
+<!-- IT Infrastructure Development -->
+<div id="infra" class="page detail-page">
+    
+
+    <section class="detail-hero">
+        <h1>IT Infrastructure Development</h1>
+        <p>Robust and scalable IT systems for enterprises.</p>
+    </section>
+
+    <section class="detail-content">
+        <h2>What is IT Infrastructure?</h2>
+        <p>
+            IT infrastructure includes hardware, software and network systems
+            required for business operations and data management.
+        </p>
+
+        <h2>Key Features</h2>
+        <ul>
+            <li>✔ Network Setup</li>
+            <li>✔ Server Management</li>
+            <li>✔ Cloud Infrastructure</li>
+            <li>✔ Security Systems</li>
+            <li>✔ Data Backup Solutions</li>
+        </ul>
+
+        <h2>Benefits</h2>
+        <p>
+            Ensures smooth operations, security and high system performance.
+        </p>
+    </section>
+
+</div>
+
+
+
+<!-- VGST Solutions -->
+<div id="vgst" class="page detail-page">
+    
+
+    <section class="detail-hero">
+        <h1>VGST Solutions</h1>
+        <p>Virtual Galaxy Smart Technology platform.</p>
+    </section>
+
+    <section class="detail-content">
+        <h2>What is VGST?</h2>
+        <p>
+            VGST provides innovative technology solutions for smart banking,
+            automation and enterprise digital systems.
+        </p>
+
+        <h2>Key Features</h2>
+        <ul>
+            <li>✔ Smart Automation</li>
+            <li>✔ Digital Banking Integration</li>
+            <li>✔ Enterprise Solutions</li>
+            <li>✔ Scalable Platforms</li>
+            <li>✔ Secure Systems</li>
+        </ul>
+
+        <h2>Benefits</h2>
+        <p>
+            Enhances innovation, improves efficiency and supports business growth.
+        </p>
+    </section>
+
+</div>
+
+
+
+<!-- DR & CR Management -->
+<div id="frdc" class="page detail-page">
+    
+
+    <section class="detail-hero">
+        <h1>DR & CR Management</h1>
+        <p>Disaster Recovery & Data Center solutions.</p>
+    </section>
+
+    <section class="detail-content">
+        <h2>What is DR & CR?</h2>
+        <p>
+            Disaster Recovery and Data Center management ensures business continuity
+            and protection of critical data during failures.
+        </p>
+
+        <h2>Key Features</h2>
+        <ul>
+            <li>✔ Backup Systems</li>
+            <li>✔ Data Recovery</li>
+            <li>✔ Cloud Storage</li>
+            <li>✔ Risk Management</li>
+            <li>✔ 24/7 Monitoring</li>
+        </ul>
+
+        <h2>Benefits</h2>
+        <p>
+            Protects business data, reduces downtime and ensures reliability.
+        </p>
+    </section>
+
+</div>
+
+
+<!-- Mobile Computing Page -->
+<div id="Mobile" class="page detail-page">
+  
+
+    <section class="detail-hero">
+        <h1>Mobile Computing</h1>
+        <p>Modern mobile-based business solutions.</p>
+    </section>
+
+    <section class="detail-content">
+        <h2>What is Mobile Computing?</h2>
+        <p>
+            Mobile computing allows users to access applications and services
+            through smartphones and portable devices anytime, anywhere.
+        </p>
+
+        <h2>Key Features</h2>
+        <ul>
+            <li>✔ Mobile Apps</li>
+            <li>✔ Cloud Sync</li>
+            <li>✔ Real-time Access</li>
+            <li>✔ Secure Data Transfer</li>
+            <li>✔ Cross-platform Support</li>
+        </ul>
+
+        <h2>Benefits</h2>
+        <p>
+            Increases flexibility, improves productivity and enables remote access.
+        </p>
+    </section>
+
+</div>
+<!-- End of Services -->
+
+
+
+<!-- IPO DETAIL PAGES -->
+<div id="ipo" class="page ipo-page">
+    <h2>IPO Information</h2>
+
+    <div class="grid">
+        <div class="card ipo-card" onclick="showIPODetail('drhp')">Draft Red Herring Prospectus (DRHP)</div>
+        <div class="card ipo-card" onclick="showIPODetail('addendum')">Addendum to the DRHP</div>
+        <div class="card ipo-card" onclick="showIPODetail('rhp')">RHP - Virtual Galaxy Infotech Limited</div>
+        <div class="card ipo-card" onclick="showIPODetail('presentation')">Investor Presentation - 25/03/2025</div>
+        <div class="card ipo-card" onclick="showIPODetail('prospectus')">Virtual Galaxy Prospectus</div>
+    </div>
+
+    <!-- DETAIL SECTION -->
+    <div id="ipoDetail" class="ipo-detail" style="display:none;">
+        <h3 id="ipoDetailTitle"></h3>
+        <p id="ipoDetailContent"></p>
+        <ul id="ipoDetailList"></ul>
+        <table id="ipoDetailTable"></table>
+    </div>
+</div>
+
+
+<!-- investor DETAIL PAGES -->
+<div id="investor" class="page investor-page">
+        <h2>Investor Information</h2>
+    <p>Investor relations section containing company financial reports,corporate governance information and shareholder updates.</p>
+    <div class="grid">
+        <div class="card"> <h3>Annual Reports</h3> <p>Company financial reports and financial statements.</p> </div>
+        <div class="card"> <h3>Shareholder Information</h3> <p>Information for investors and stakeholders.</p> </div>
+        <div class="card"> <h3>Corporate Governance</h3> <p>Company governance policies and compliance details.</p> </div>
+    </div>
+</div>
+
+
+
+<!-- CONTACT -->
+<div id="contact" class="page contact-page">
+    <h2>Contact Virtual Galaxy</h2> 
+    <div class="contact-container">
+        <!-- LEFT SIDE MAP -->
+        <div class="contact-left">
+            <iframe src="https://maps.google.com/maps?q=Virtual%20Galaxy%20Infotech%20Nagpur&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+            <div class="address-box">
+                <h3>Office Address</h3> 
+                <p>
+                    Virtual Galaxy Infotech Pvt Ltd<br>
+                    IT Park, Nagpur, Maharashtra<br>
+                    India
+                </p>
+                <p>Phone: +91 9876543210</p> 
+                <p>Email: info@virtualgalaxy.com</p>
+            </div>
+        </div>
+        <!-- RIGHT SIDE CONTACT FORM -->
+        <div class="contact-right">
+            <div class="about-page"></div>
+            <h3>Contact / Inquiry</h3> 
+            <p>Please tell us why you want to contact Virtual Galaxy.</p>
+            <form id="contactForm">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Email Address" required>
+                            <select required>
+                                <option value="">Select Purpose</option>
+                                <option>Investment Inquiry</option>
+                                <option>Job Opportunity</option>
+                                <option>Software / Product Inquiry</option>
+                                <option>Business Partnership</option>
+                                <option>Other</option>
+                            </select>
+                        <textarea placeholder="Write your message..." rows="5"></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<!-- CORE BANKING FULL PAGE -->
+<div id="corebanking-detail" class="page detail-page">
+
+    
+
+    <section class="detail-hero">
+        <h1>Core Banking Solution</h1>
+        <p>Complete digital banking system for modern financial institutions.</p>
+    </section>
+
+       <section class="detail-content">
+        <h2>What is Core Banking?</h2>
+        <p>
+            Core Banking System allows banks to manage accounts, transactions,
+            loans and customer data in real-time across all branches.
+        </p>
+
+        <h2>Key Features</h2>
+        <ul>
+            <li>✔ Account Management</li>
+            <li>✔ Loan Processing</li>
+            <li>✔ Real-time Transactions</li>
+            <li>✔ Mobile & Internet Banking</li>
+            <li>✔ Security & RBI Compliance</li>
+        </ul>
+
+        <h2>Benefits</h2>
+        <p>
+            Faster banking operations, improved customer experience,
+            secure transactions and centralized data management.
+        </p>
+    </section>
+
+</div>
+
+
+ <!-- MIS FULL PAGE -->
+<div id="mis-detail" class="page detail-page">
+
+    
+
+    <section class="detail-hero">
+        <h1>MIS Solution</h1>
+        <p>Advanced reporting and analytics system for banking & finance.</p>
+    </section>
+
+
+
+    <section class="detail-content">
+        <h2>What is MIS?</h2>
+        <p>
+            MIS (Management Information System) helps organizations collect,
+            process and analyze business data for decision making.
+        </p>
+
+        <h2>Key Features</h2>
+        <ul>
+            <li>✔ Real-time Reports</li>
+            <li>✔ Data Analytics Dashboard</li>
+            <li>✔ Custom Report Generation</li>
+            <li>✔ Financial Insights</li>
+            <li>✔ Risk Monitoring</li>
+        </ul>
+
+        <h2>Benefits</h2>
+        <p>
+            Improves decision-making, enhances data visibility and provides
+            accurate business insights.
+        </p>
+    </section>
+
+</div>
+
+
+ <!-- ERP FULL PAGE -->
+  <div id="erp-detail" class="page detail-page">
+
+    
+
+    <section class="detail-hero">
+        <h1>ERP Solution</h1>
+        <p>Integrated enterprise system to manage business operations.</p>
+    </section>
+
+ 
+
+    <section class="detail-content">
+        <h2>What is ERP?</h2>
+        <p>
+            ERP (Enterprise Resource Planning) integrates all business
+            processes like finance, HR, inventory and operations into one system.
+        </p>
+
+        <h2>Key Features</h2>
+        <ul>
+            <li>✔ Finance Management</li>
+            <li>✔ HR & Payroll</li>
+            <li>✔ Inventory Tracking</li>
+            <li>✔ Workflow Automation</li>
+            <li>✔ Real-time Data Sync</li>
+        </ul>
+
+        <h2>Benefits</h2>
+        <p>
+            Increases productivity, reduces manual work and improves
+            overall business efficiency.
+        </p>
+    </section>
+
+</div>
+
+
+<!-- cyber-detail FULL PAGE -->
+<div id="cyber-detail" class="page detail-page">
+
+    
+
+    <section class="detail-hero">
+        <h1>Cyber Security</h1>
+        <p>Protecting banking systems with advanced security solutions.</p>
+    </section>
+
+  
+    <section class="detail-content">
+        <h2>What is Cyber Security?</h2>
+        <p>
+            Cyber Security protects systems, networks and data from
+            digital attacks, threats and unauthorized access.
+        </p>
+
+        <h2>Key Features</h2>
+        <ul>
+            <li>✔ Data Encryption</li>
+            <li>✔ Firewall Protection</li>
+            <li>✔ Multi-factor Authentication</li>
+            <li>✔ Threat Detection</li>
+            <li>✔ Secure Transactions</li>
+        </ul>
+
+        <h2>Benefits</h2>
+        <p>
+            Ensures data safety, prevents cyber attacks and builds
+            trust with customers.
+        </p>
+    </section>
+
+</div>
+
+
+<!-- digital-detail FULL PAGE -->
+<div id="digital-detail" class="page detail-page">
+
+   
+
+    <section class="detail-hero">
+        <h1>Digital Payment System</h1>
+        <p>Secure and fast online payment solutions for modern banking.</p>
+    </section>
+
+ 
+    <section class="detail-content">
+        <h2>What is Digital Payment?</h2>
+        <p>
+            Digital payment systems allow users to transfer money online
+            using mobile apps, cards and internet banking.
+        </p>
+
+        <h2>Key Features</h2>
+        <ul>
+            <li>✔ UPI & Mobile Banking</li>
+            <li>✔ Card Payments (Debit/Credit)</li>
+            <li>✔ Instant Transactions</li>
+            <li>✔ Secure Encryption</li>
+            <li>✔ Payment Gateway Integration</li>
+        </ul>
+
+        <h2>Benefits</h2>
+        <p>
+            Faster payments, cashless economy support and secure financial transactions.
+        </p>
+    </section>
+
+</div>
+
+
+<!-- finflow-detail FULL PAGE -->
+<div id="finflow-detail" class="page detail-page">
+
+   
+
+    <section class="detail-hero">
+        <h1>Fin Flow System</h1>
+        <p>Smart financial workflow automation platform.</p>
+    </section>
+
+ 
+    <section class="detail-content">
+        <h2>What is Fin Flow?</h2>
+        <p>
+            Fin Flow automates financial processes such as approvals,
+            transactions and reporting within organizations.
+        </p>
+
+        <h2>Key Features</h2>
+        <ul>
+            <li>✔ Automated Approval Workflows</li>
+            <li>✔ Financial Tracking</li>
+            <li>✔ Real-time Monitoring</li>
+            <li>✔ Integration with Banking Systems</li>
+            <li>✔ Custom Workflow Design</li>
+        </ul>
+
+        <h2>Benefits</h2>
+        <p>
+            Reduces manual work, increases efficiency and ensures
+            transparency in financial operations.
+        </p>
+    </section>
+
+</div>
+
+
+<!-- Post Mortem MGMT FULL PAGE -->
+<div id="post-mortem-mgmt" class="page detail-page">
+
+    
+
+    <section class="detail-hero">
+        <h1>Post-Mortem Management</h1>
+        <p>Incident analysis and compliance tracking system.</p>
+    </section>
+
+  
+    <section class="detail-content">
+        <h2>What is Post-Mortem Management?</h2>
+        <p>
+            This system helps organizations analyze system failures,
+            incidents and security breaches to prevent future issues.
+        </p>
+
+        <h2>Key Features</h2>
+        <ul>
+            <li>✔ Incident Tracking</li>
+            <li>✔ Root Cause Analysis</li>
+            <li>✔ Compliance Reporting</li>
+            <li>✔ Audit Logs</li>
+            <li>✔ Risk Management</li>
+        </ul>
+
+        <h2>Benefits</h2>
+        <p>
+            Improves system reliability, reduces risks and ensures
+            compliance with regulatory standards.
+        </p>
+
+    <!--End of CORE BANKING FULL PAGE -->
+
+</section>
+</div>
+
+    <script src="script.js"></script>
+    </body>
+    </html>
+<!-- END OF HTML-->
